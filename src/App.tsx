@@ -1,6 +1,7 @@
 // import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
+import pic from './assets/images/test.jpg';
 import React from 'react';
 import './App.css';
 
@@ -29,7 +30,7 @@ const App: React.FC = () => {
           <h2 className="event-date">You are invited to join us on our special day.</h2>
         </div>
         <div className="image-section">
-          <img src="/src/assets/images/test.jpg" alt="Onie and Sweet" className="wedding-image" />
+          <img src={pic} alt="Onie and Sweet" className="wedding-image" />
         </div>
         <div className="event-date-container">
           <h2 className="event-date">Wednesday, February 05, 2025</h2>
